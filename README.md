@@ -1,5 +1,5 @@
 ---
-title: "Monitoring Apache Spark Execution with Microsoft Fabric Diagnostic Emitter"
+title: "Fabric Spark Audit Logs Transformer"
 tags: ["Apache Spark", "Microsoft Fabric", "Spark Diagnostic Emitter", "Job Monitoring", "Data Lakehouse", "Data Warehouse", "Service Principal"]
 ---
 
@@ -109,7 +109,7 @@ container_client = blob_service_client.get_container_client(src_container_name)
 ....................
 
 ```
-**Full code** :- ![Source Code](./src-code/transform_sparklogs.py)
+**Full code** :- [Source Code](https://github.com/rawat-sudhir/fabric-spark-audit-logs-transformer/tree/main/src-code)
 
 ### Output
 
